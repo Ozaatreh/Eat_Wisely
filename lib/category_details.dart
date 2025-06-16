@@ -205,7 +205,9 @@ class CategoryDetailsPage extends StatelessWidget {
     final foods = categoryFoods[category] ?? [];
 
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 223, 230, 238),
       appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 223, 230, 238),
         leading: IconButton( onPressed: () { 
           Navigator.pop(context);
          },

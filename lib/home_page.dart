@@ -16,7 +16,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 223, 230, 238),
       appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 223, 230, 238),
         centerTitle: true,
         title: Text('السعرات الحرارية' , 
         style: GoogleFonts.tajawal(
